@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Northstack</title>
+<meta name="description" content="Get in touch with Northstack about chatbots, automation, websites, marketing, or data handling for your business.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo"><span class="logo-dot"></span>Northstack</a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="contact.html" class="nav-cta">Get in touch</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">Get in touch</span>
+    <h1>Tell us what's taking up your time.</h1>
+    <p>Send a message with a bit of context and we'll get back to you with honest, specific next steps — no automated sales sequence.</p>
+  </div>
+</section>
+
+<section style="padding-top: 64px;">
+  <div class="wrap">
+    <div class="contact-grid">
+
+      <div class="reveal">
+        <div class="contact-email-card">
+          <span class="eyebrow">Prefer email?</span>
+          <h3 style="font-size: 22px; margin-bottom: 4px;">Reach us directly</h3>
+          <a class="email-link" href="mailto:mehmood.webexoerts@gmail.com">mehmood.webexoerts@gmail.com</a>
+          <p>We read every message ourselves and typically reply within one business day.</p>
+        </div>
+
+        <div style="margin-top: 28px;">
+          <span class="eyebrow">Before you write in</span>
+          <h4 style="font-size: 18px; margin-bottom: 10px;">A few things that help us help you faster</h4>
+          <ul class="service-list">
+            <li>What's the one task or process that's costing you the most time?</li>
+            <li>Which service you're most interested in — chatbots, automation, websites, marketing, or data handling</li>
+            <li>Roughly how many people are on your team today</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <form id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="service">Which service are you interested in?</label>
+            <select id="service" name="service">
+              <option value="Chatbots">Chatbots</option>
+              <option value="Automation">Automation</option>
+              <option value="Websites">Websites</option>
+              <option value="Marketing">Marketing</option>
+              <option value="Data handling">Data handling</option>
+              <option value="Not sure yet">Not sure yet</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">What's going on?</label>
+            <textarea id="message" name="message" required placeholder="Tell us a bit about your business and what you're hoping to fix."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-note">This opens your email app with your message ready to send to mehmood.webexoerts@gmail.com.</p>
+          <div id="form-status"></div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><span class="logo-dot"></span>Northstack</a>
+        <p>Practical chatbots, automation, websites, marketing, and data systems for small businesses ready to grow.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Site</h5>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h5>Get in touch</h5>
+          <a href="mailto:mehmood.webexoerts@gmail.com">mehmood.webexoerts@gmail.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Northstack</span>
+      <span>Built for businesses who'd rather run than manage software.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
